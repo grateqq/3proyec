@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #464446;
+    margin: 0;
+    padding: 0;
+}
+/* encabezado */
+header {
+    background-color: #333;
+    color: white;
+    flex: auto;
+    padding: 10px;
+    font-size: 40%;
+    max-width: 400px;
+    margin: auto;
+}
+ .navbar {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo {
+    background-color: aquamarine;
+    padding: 0px;
+    border:0px;
+    display: flex;
+ }
+.logotext{
+    background-color: bisque;
+    font-size: 30%;
+    margin-left: 2px;
+}
+.links {
+    background-color: blanchedalmond;
+    font-size: 12px;
+
+}
+/* estilos de primera seccion */
