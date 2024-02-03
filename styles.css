@@ -2,25 +2,18 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: aqua;
+     /* background-color: aqua */
 }
-
-/* Estilo para el encabezado */
-header {
-    background-color: #1F2937;
-    color: #fff;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-size: small;
-    text-align: center;
-}
-
-/* Estilo para las secciones */
+/* section style */
 section {
     margin: 0px;
     padding-right: 10px;
     padding-left: 10px;
 }
+
+* Estilo para el encabezado */
+
+/* Estilo para las secciones */
 
 .
 /* Estilo para el pie de página */
