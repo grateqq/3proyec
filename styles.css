@@ -1,24 +1,28 @@
 /* Reset de márgenes y padding para mayor consistencia */
-body, h1, h2, section, footer {
+body {
     margin: 0;
     padding: 0;
+    background-color: aqua;
 }
 
 /* Estilo para el encabezado */
 header {
     background-color: #1F2937;
     color: #fff;
-    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: small;
     text-align: center;
 }
 
 /* Estilo para las secciones */
 section {
-    background-color: white;
     margin: 0px;
-    padding: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
+.
 /* Estilo para el pie de página */
 footer {
     background-color: #1F2937;
@@ -32,3 +36,38 @@ footer {
 .sec-one {
     background-color: #1F2937;
 }
+
+p {
+    background-color: #1F2937;
+}
+
+/* empezamos con header */
+.conteinerflex {
+    background-color: #345b92c5;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+.conteinerlogo {
+  background: skyblue;
+}
+
+.conteinerlink {
+  display:flex;
+  background: skyblue;
+  justify-content: space-around;
+  width: 150px;
+    
+}
+/* seccion one */
+
+/* seccion dos */
+.conteiner {
+    background-color: #4b6a96c5;
+    margin: 0;
+}
+/* secction tres */
+.imagen2s {
+    height: 20px;
+}
+
