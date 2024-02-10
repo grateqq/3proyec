@@ -6,8 +6,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: aqua
-     /*  */
+    /* background-color: aqua */
+ 
 }
 /* section style */
 section {
@@ -26,4 +26,106 @@ footer,
 
 #s-four {
     background-color: #e5e7eb;
+}
+/* header */
+.heromaintext {
+    font-size: 48px;
+    font-weight:bold;
+    color: #F9FAF8;
+
+}
+
+.herosecondarytext {
+    font-size: 18px;
+    color: #E2E4EB;
+}
+
+.headerlogotext {
+    font-size: 24px;    
+    color: #F9FAF8;
+   
+}
+
+.buttoncolor {
+   background-color: #3882F6;
+   border-radius:20px;
+   font-size: 20px;
+   color: #E2E4EB;
+   padding: 10px 20px;
+
+}
+
+.infomationheadertext {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: light italic ;
+    color: #1F2937;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box{ 
+    background-color: #3882F6;
+    padding: 30px;
+    margin: 5px
+
+}
+
+.conteiner{
+   
+    display: flex;
+    justify-content:space-around;
+    /* background-color: #3882F6; */
+    padding: 10px;
+    /* flex: 1 1 20% */
+    flex: 1 1 auto
+    /* flex: 1 1 0 */
+    /* flex: 1 1 1 */
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    /* background-color: #3882F6; */
+    align-self: center;
+    display: flex;
+    align-content: center;
+    gap: 6px;
+   
+}
+/* two section  */
+.conteiner-one {
+    display: flex;
+    /* background-color: aqua; */
+    padding: 30px;
+    justify-content: space-around;
+    gap: 30px;
+    
+    
+}
+
+.two-section {
+    display: flex;
+    flex-direction:column;
+}
+.flex-2s {
+    display: flex;
+    justify-content: space-around;
+}  
+
+.text-2s {
+    text-align: center;
 }
